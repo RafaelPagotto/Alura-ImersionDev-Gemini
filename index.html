@@ -14,16 +14,16 @@
     </header>
     <main>
         <form>
-            <label for="opcoes">Selecione uma divisão de treino:</label>
-            <select id="opcoes" name="opcoes">
-                <option value="" disabled selected>Selecionar</option>
-                <option value="opcao1">Corpo Todo</option>
-                <option value="opcao2">Costas/Peito/Perna</option>
-                <option value="opcao3">Superior/Inferior</option>
-            </select>
+            <div class="dropdown">
+                <label for="opcoes" class="dropdown-label">Selecione uma divisão de treino</label>
+                <ul id="dropdown-menu" class="dropdown-menu">
+                    <li data-value="opcao1">Corpo Todo</li>
+                    <li data-value="opcao2">Costas/Peito/Perna</li>
+                    <li data-value="opcao3">Superior/Inferior</li>
+                </ul>
+                <input type="hidden" id="opcoes" name="opcoes" />
+            </div>
         </form>
-        <!-- feito na aula: <input type="text" placeholder="Digite o tipo de treino">
-        <button>Pesquisar</button> -->
     </main>
     <footer>
         <p>Est. 2024 por Rafael Pagotto. Todos os direitos reservados.</p>
@@ -47,6 +47,7 @@
             email: uncomplicatedworkout@gmail.com
         </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
