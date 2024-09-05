@@ -17,8 +17,6 @@ body {
     /* Centraliza os itens horizontalmente */
     justify-content: center;
     /* Centraliza os itens verticalmente */
-    height: 100vh;
-    /* Preenche a altura total da viewport */
     margin: 0;
     /* Remove a margem padrão */
     padding: 0;
@@ -133,7 +131,7 @@ footer {
     /* Espaçamento interno */
     width: 100%;
     /* Largura total da página */
-    position: absolute;
+    position: relative;
     /* Posiciona o rodapé */
     bottom: 0;
     /* Alinha ao fundo da página */
