@@ -68,7 +68,7 @@ form {
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 100%;
+    width: 400px;
     /* Ajuste a largura conforme necessário */
 }
 
@@ -80,7 +80,7 @@ form {
     border-radius: 1.5rem;
     background-color: #ffffff;
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
     text-align: center;
     user-select: none;
@@ -93,7 +93,7 @@ form {
     top: 100%;
     /* Posiciona o menu abaixo da label */
     left: 0;
-    width: 85%;
+    width: 90%;
     border: 1px solid #ccc;
     border-radius: 1.5rem;
     background-color: #ffffff;
