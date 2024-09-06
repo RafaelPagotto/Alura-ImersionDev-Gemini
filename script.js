@@ -8,9 +8,9 @@ document.querySelectorAll(".dropdown-menu li").forEach(function (item) {
         var selectedValue = this.getAttribute("data-value");
         var hiddenInput = document.getElementById("opcoes");
 
-        // Atualiza o texto da label e o valor do input oculto
-        document.querySelector(".dropdown-label").textContent = this.textContent;
-        hiddenInput.value = selectedValue;
+        // Atualiza o texto da label e o valor do input oculto - comentado fora
+        //document.querySelector(".dropdown-label").textContent = this.textContent;
+        //hiddenInput.value = selectedValue;
 
         // Oculta o menu após a seleção
         document.getElementById("dropdown-menu").classList.remove("show");
