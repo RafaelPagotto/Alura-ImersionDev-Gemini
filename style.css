@@ -102,6 +102,12 @@ form {
     color: #000000;
 }
 
+/* Remove o estilo de link nos itens do menu suspenso de classe "a"*/
+.dropdown-menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .dropdown-label:hover {
     background-color: #ccc;
 }
