@@ -102,6 +102,10 @@ form {
     color: #000000;
 }
 
+.dropdown-label:hover {
+    background-color: #ccc;
+}
+
 /* Estilo para os itens do menu suspenso */
 .dropdown-menu li {
     padding: 0.8rem 1.2rem;
