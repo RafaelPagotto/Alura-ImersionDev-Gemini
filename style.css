@@ -27,9 +27,18 @@ body {
     font-size: 1rem;
 }
 
+header>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 4.0rem;
+    font-size: 6.0rem;
     /* Tamanho da fonte */
     color: #ffffff;
     /* Cor do texto */
@@ -39,36 +48,16 @@ h1 {
     /* Espaçamento entre letras */
 }
 
-h2 {
-    font-size: 2rem;
-    color: #ffffff;
-    /* Cor do texto */
-    text-align: center;
-    /* Alinha o texto ao centro */
-}
-
-/* Estiliza as seções da página */
-section {
-    display: flex;
-    /* Usa Flexbox para layout */
-    flex-direction: column;
-    /* Alinha os itens na vertical */
-    align-items: left;
-    /* Centraliza os itens horizontalmente */
-    margin-bottom: 3rem;
-    /* Espaçamento abaixo de cada seção */
-}
-
 /* Estilizando o formulário */
 form {
-    margin: 20px;
+    margin: 1rem;
 }
 
 /* Estilo para o container do dropdown */
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 400px;
+    width: 500px;
     /* Ajuste a largura conforme necessário */
 }
 
@@ -80,7 +69,7 @@ form {
     border-radius: 1.5rem;
     background-color: #ffffff;
     color: #000000;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     text-align: center;
     user-select: none;
@@ -93,7 +82,7 @@ form {
     top: 100%;
     /* Posiciona o menu abaixo da label */
     left: 0;
-    width: 90%;
+    width: 92%;
     border: 1px solid #ccc;
     border-radius: 1.5rem;
     background-color: #ffffff;
@@ -149,4 +138,5 @@ footer {
     /* Alinha ao fundo da página */
     font-size: 0.7rem;
     /* Tamanho da fonte */
+    line-height: 0.5rem;
 }
