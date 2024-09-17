@@ -1,0 +1,131 @@
+/* Importa a fonte Saira Stencil One do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+html {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    text-align: center;
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    color: black;
+    background-color: white;
+    padding: 0.5rem 0;
+}
+
+.headerLink {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 5rem 0 0 0;
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 1rem 2rem 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 3rem 0 1rem 0;
+}
+
+section p {
+    display: inline-flex;
+    margin: 0.2rem;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+    flex: 1; /* This makes the content area take up the remaining space,
+    making the footer stay at the bottom and consequently enabling scrolling if vh is lowered*/
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 0.5rem 0;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1270px) {
+    section p {
+        display: block;
+        margin: 1rem 10vw 0 10vw;
+        border: none;
+        padding: 0;
+    }  
+}
+
+@media screen and (max-width: 460px) {    
+    h1 {
+        font-size: 4.5rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: 0.8rem;
+    }
+
+    section p {
+        font-size: 0.8rem;
+    }  
+}
+
+@media screen and (max-width: 260px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    .description {
+        font-size: 0.6rem;
+    }
+
+    section p {
+        font-size: 0.6rem;
+    }  
+    
+}
