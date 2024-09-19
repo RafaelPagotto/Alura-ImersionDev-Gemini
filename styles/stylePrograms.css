@@ -70,6 +70,12 @@ footer {
     margin-top: 2rem;
 }
 
+footer p {
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+    line-height: 2;
+}
+
 @media screen and (max-width: 1270px) {
     section p {
         display: block;

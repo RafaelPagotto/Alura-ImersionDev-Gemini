@@ -19,38 +19,33 @@ body {
     flex: 1;
 }
 
-.homeButton {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    border: 2px solid white;
-}
-
-.homeButton a {
-    text-decoration: none;
-    color: white;
-}
-
-.homeButton a:hover {
-    color: yellow;
-}
-
-.homeButton a:active {
-    color: white;
-}
-
 h1 {
     font-size: 6rem;
-    margin: 6rem 0;
+    margin: 6rem 0 0 0;
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    padding: 1rem;
+}
+
+.description a {
+    text-decoration: none;
+    color: orange;
+}
+
+.description a:active {
+    color: white;
 }
 
 h2 {
     font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.programType p {
+    margin: 0 0 2rem 0;
 }
 
 .programType a {
@@ -60,15 +55,11 @@ h2 {
 }
 
 .programType a:hover {
-    color: yellow;
+    color: orange;
 }
 
 .programType a:active {
     color: white;
-}
-
-.programType p {
-    margin: 2rem 0;
 }
 
 .content {
@@ -82,8 +73,14 @@ footer {
     width: 100%;
     background-color: white;
     color: black;
-    padding: 0.5rem 0;
     margin-top: 2rem;
+    padding: 0.5rem 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+    line-height: 2;
 }
 
 @media screen and (max-width: 820px) {
@@ -99,6 +96,10 @@ footer {
     
     h2 {
         font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 0.8rem;
     }
 
     .programType a {
