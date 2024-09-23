@@ -55,6 +55,15 @@ section p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+section a {
+    text-decoration: none;
+    color: white;
+}
+
+section a:hover {
+    color: orange;
+}
+
 .content {
     flex: 1; /* This makes the content area take up the remaining space,
     making the footer stay at the bottom and consequently enabling scrolling if vh is lowered*/
